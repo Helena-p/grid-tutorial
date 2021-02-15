@@ -19,7 +19,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   grid-gap: 2rem;
   height: 98vh;
 }
@@ -57,4 +57,14 @@ body {
 }
 .gridNine {
   background-color: #b97455;
+}
+.gridTen {
+  background-color: #154c79;
+}
+.gridEleven {
+  background-color: #063970;
+}
+.gridTwelve {
+  background-color: #873e23;
+  grid-column: 1/-1;
 }
