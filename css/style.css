@@ -14,8 +14,9 @@
 body {
   box-sizing: border-box;
   margin: 1rem;
+  background-color: rgb(160, 157, 157);
 }
-
+/* ----- Grid parent ----- */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -31,6 +32,7 @@ body {
   font-size: 2em;
 }
 
+/* ----- Grid items ----- */
 .gridA {
   background-color: #154c79;
   grid-area: 1/1/4/5;
