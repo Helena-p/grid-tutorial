@@ -18,17 +18,10 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 1.2rem;
   height: 98vh;
-  grid-template-areas:
-    "A A B B C C"
-    "D D B B E E"
-    "D D B B G G"
-    "F F I H H K"
-    "F F J H H K"
-    "L L L L L L";
 }
 
 .container > div {
@@ -40,49 +33,49 @@ body {
 
 .gridA {
   background-color: #154c79;
-  grid-area: A;
+  grid-area: 1/1/4/5;
 }
 .gridB {
   background-color: #063970;
-  grid-area: B;
+  grid-area: 4/1/7/5;
 }
 .gridC {
   background-color: #abdbe3;
-  grid-area: C;
+  grid-area: 1/9/3/13;
 }
 .gridD {
   background-color: #873e23;
-  grid-area: D;
+  grid-area: 3/9/5/13;
 }
 .gridE {
   background-color: #76b5c5;
-  grid-area: E;
+  grid-area: 5/9/7/13;
 }
 .gridF {
   background-color: #eab676;
-  grid-area: F;
+  grid-area: 1/5/7/9;
 }
 .gridG {
   background-color: #e28743;
-  grid-area: G;
+  grid-area: 11/1/13/13;
 }
 .gridH {
   background-color: #1e81b0;
-  grid-area: H;
+  grid-area: 7/5/9/7;
 }
 .gridI {
   background-color: #b97455;
-  grid-area: I;
+  grid-area: 9/5/11/7;
 }
 .gridJ {
   background-color: #154c79;
-  grid-area: J;
+  grid-area: 7/7/11/11;
 }
 .gridK {
   background-color: #063970;
-  grid-area: K;
+  grid-area: 7/11/11/13;
 }
 .gridL {
   background-color: #873e23;
-  grid-area: L;
+  grid-area: 7/1/11/5;
 }
