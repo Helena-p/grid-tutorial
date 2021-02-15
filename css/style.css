@@ -14,3 +14,26 @@
 body {
   box-sizing: border-box;
 }
+
+.container {
+  display: grid;
+}
+
+.gridOne {
+}
+.gridTwo {
+}
+.gridThree {
+}
+.gridFour {
+}
+.gridFive {
+}
+.gridSix {
+}
+.gridSeven {
+}
+.gridEight {
+}
+.gridNine {
+}
